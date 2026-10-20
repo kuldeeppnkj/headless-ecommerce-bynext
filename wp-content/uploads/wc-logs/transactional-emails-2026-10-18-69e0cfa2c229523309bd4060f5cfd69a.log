@@ -1,0 +1,9 @@
+2026-10-18T13:50:06+00:00 INFO Email "admin_payment_gateway_enabled" sent CONTEXT: {"email_type":"admin_payment_gateway_enabled","status":"sent","recipient":"admin","WC_Stripe_UPE_Payment_Gateway":null}
+2026-10-18T13:52:18+00:00 INFO Email "new_order" for order #56 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":56}
+2026-10-18T13:52:19+00:00 INFO Email "customer_processing_order" for order #56 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"admin","order":56}
+2026-10-18T14:42:29+00:00 INFO Email "customer_failed_order" for order #59 sent CONTEXT: {"email_type":"customer_failed_order","status":"sent","recipient":"guest","order":59}
+2026-10-18T14:42:29+00:00 INFO Email "failed_order" for order #59 sent CONTEXT: {"email_type":"failed_order","status":"sent","recipient":"admin","order":59}
+2026-10-18T14:56:00+00:00 INFO Email "customer_failed_order" for order #60 sent CONTEXT: {"email_type":"customer_failed_order","status":"sent","recipient":"guest","order":60}
+2026-10-18T14:56:00+00:00 INFO Email "failed_order" for order #60 sent CONTEXT: {"email_type":"failed_order","status":"sent","recipient":"admin","order":60}
+2026-10-18T14:56:49+00:00 INFO Email "new_order" for order #61 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":61}
+2026-10-18T14:56:49+00:00 INFO Email "customer_processing_order" for order #61 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"guest","order":61}

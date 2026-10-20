@@ -1,0 +1,1 @@
+2026-10-20T17:14:38+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in D:\laragon\www\paradise\scratch_test_login.php:9 CONTEXT: {"error":{"type":1,"file":"D:\\laragon\\www\\paradise\\scratch_test_login.php","line":9},"remote-logging":true,"backtrace":["#0 {main}\n  thrown"]}

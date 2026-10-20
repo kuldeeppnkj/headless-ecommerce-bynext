@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.ts";
+
+:root {
+  --background: #faf9f4;
+  --foreground: #1b1c19;
+  --primary-color: #463F3A;
+  --accent-color: #E0AFA0;
+}
+
+@theme {
+  --color-primary: var(--primary-color);
+  --color-accent: var(--accent-color);
+  --color-surface: #faf9f4;
+  --color-on-surface: #1b1c19;
+  --color-on-surface-variant: #514440;
+  --color-inverse-surface: #1b1c19;
+  --color-inverse-on-surface: #f2f1ec;
+  --color-outline-variant: #d5c3be;
+  --color-surface-container: #efeee9;
+  --color-surface-container-low: #f5f4ef;
+  --color-surface-container-high: #e9e8e3;
+  --color-primary-container: var(--accent-color);
+  --color-on-primary-container: #654136;
+  --color-secondary: #655d57;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overscroll-behavior: none;
+}

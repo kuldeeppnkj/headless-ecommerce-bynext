@@ -1,0 +1,12 @@
+2026-10-17T03:57:41+00:00 INFO Email "new_order" for order #20 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":20}
+2026-10-17T03:57:41+00:00 INFO Email "customer_processing_order" for order #20 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"jane.smith@example.com","order":20}
+2026-10-17T03:59:26+00:00 INFO Email "cancelled_order" for order #20 sent CONTEXT: {"email_type":"cancelled_order","status":"sent","recipient":"admin","order":20}
+2026-10-17T03:59:26+00:00 NOTICE Email "customer_cancelled_order" for order #20 not sent: email type is disabled CONTEXT: {"email_type":"customer_cancelled_order","status":"disabled","recipient":"jane.smith@example.com","order":20}
+2026-10-17T04:23:19+00:00 INFO Email "new_order" for order #21 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":21}
+2026-10-17T04:23:19+00:00 INFO Email "customer_processing_order" for order #21 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"jane.smith@example.com","order":21}
+2026-10-17T04:26:43+00:00 INFO Email "new_order" for order #22 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":22}
+2026-10-17T04:26:43+00:00 INFO Email "customer_processing_order" for order #22 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"jane.smith@example.com","order":22}
+2026-10-17T05:24:31+00:00 INFO Email "new_order" for order #23 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":23}
+2026-10-17T05:24:31+00:00 INFO Email "customer_processing_order" for order #23 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"jane.smith@example.com","order":23}
+2026-10-17T18:08:48+00:00 INFO Email "new_order" for order #24 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":24}
+2026-10-17T18:08:48+00:00 INFO Email "customer_processing_order" for order #24 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"jane.smith@example.com","order":24}

@@ -1,0 +1,5 @@
+2026-10-20T16:39:37+00:00 INFO Email "new_order" for order #67 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":67}
+2026-10-20T16:39:38+00:00 INFO Email "customer_processing_order" for order #67 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"joshdoe@yopmail.com","order":67}
+2026-10-20T17:31:40+00:00 INFO Email "new_order" for order #68 sent CONTEXT: {"email_type":"new_order","status":"sent","recipient":"admin","order":68}
+2026-10-20T17:31:40+00:00 INFO Email "customer_processing_order" for order #68 sent CONTEXT: {"email_type":"customer_processing_order","status":"sent","recipient":"testnext@yopmail.com","order":68}
+2026-10-20T17:32:42+00:00 INFO Email "customer_completed_order" for order #68 sent CONTEXT: {"email_type":"customer_completed_order","status":"sent","recipient":"testnext@yopmail.com","order":68}

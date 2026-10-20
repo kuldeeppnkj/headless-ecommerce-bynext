@@ -1,0 +1,52 @@
+[18-Oct-2026 06:25:23 UTC] PHP Fatal error:  Uncaught Exception: Carbon Fields must be booted before the "init" WordPress action has fired. in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Loader\Loader.php:37
+Stack trace:
+#0 D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Carbon_Fields.php(189): Carbon_Fields\Loader\Loader->boot()
+#1 C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\test_carbon_boot.php(5): Carbon_Fields\Carbon_Fields::boot()
+#2 {main}
+  thrown in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Loader\Loader.php on line 37
+[18-Oct-2026 06:33:17 UTC] Automatic updates starting...
+[18-Oct-2026 06:33:19 UTC] Automatic updates complete.
+[18-Oct-2026 12:13:44 UTC] PHP Parse error:  syntax error, unexpected token "\" in phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/eval-command/src/Eval_Command.php(39) : eval()'d code on line 1
+[18-Oct-2026 12:18:11 UTC] PHP Warning:  Undefined array key 5 in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Field\Complex_Field.php on line 345
+[18-Oct-2026 12:25:48 UTC] PHP Warning:  Undefined array key 2 in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Field\Complex_Field.php on line 345
+[18-Oct-2026 12:25:50 UTC] PHP Warning:  Undefined array key 4 in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Field\Complex_Field.php on line 345
+[18-Oct-2026 12:25:50 UTC] PHP Warning:  Undefined array key 5 in D:\laragon\www\paradise\wp-content\themes\twentytwentyfive\vendor\htmlburger\carbon-fields\core\Field\Complex_Field.php on line 345
+[18-Oct-2026 12:43:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "home" in phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/eval-command/src/Eval_Command.php(39) : eval()'d code:1
+Stack trace:
+#0 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/eval-command/src/Eval_Command.php(39): eval()
+#1 [internal function]: Eval_Command->__invoke(Array, Array)
+#2 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php(100): call_user_func(Array, Array, Array)
+#3 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#4 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php(497): call_user_func(Object(Closure), Array, Array)
+#5 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(470): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#6 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(493): WP_CLI\Runner->run_command(Array, Array)
+#7 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(136): WP_CLI\Runner->run_command_and_exit()
+#8 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1228): WP_CLI\Runner->do_early_invoke('before_wp_load')
+#9 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#10 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#11 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#12 phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/php/boot-phar.php(20): include('phar://C:/Users...')
+#13 C:\Users\panka\AppData\Roaming\Composer\vendor\bin\wp.phar(4): include('phar://C:/Users...')
+#14 {main}
+  thrown in phar://C:/Users/panka/AppData/Roaming/Composer/vendor/bin/wp.phar/vendor/wp-cli/eval-command/src/Eval_Command.php(39) : eval()'d code on line 1
+[18-Oct-2026 14:32:21 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\paradise\wp-includes\functions.php on line 6260
+[18-Oct-2026 14:55:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\test_stripe_checkout.php:16) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[18-Oct-2026 14:55:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\test_stripe_checkout.php:29) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[18-Oct-2026 14:56:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\test_stripe_checkout.php:30) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[19-Oct-2026 04:29:40 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\paradise\wp-includes\functions.php on line 6260
+[19-Oct-2026 04:29:40 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\paradise\wp-includes\functions.php on line 6260
+[19-Oct-2026 04:29:40 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\paradise\wp-includes\functions.php on line 6260
+[19-Oct-2026 17:05:03 UTC] Automatic updates starting...
+[19-Oct-2026 17:05:08 UTC] Automatic updates complete.
+[19-Oct-2026 17:38:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\test_stripe_keys.php:31) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[19-Oct-2026 18:06:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Command line code:1) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[19-Oct-2026 18:09:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\panka\.gemini\antigravity\brain\2bdacf37-08de-4e42-bd6d-34cc3ed4b483\scratch\profile_checkout.php:25) in D:\laragon\www\paradise\wp-content\plugins\jwt-authentication-for-wp-rest-api\public\class-jwt-auth-public.php on line 112
+[20-Oct-2026 16:37:37 UTC] Automatic updates starting...
+[20-Oct-2026 16:37:40 UTC] Automatic updates complete.
+[20-Oct-2026 17:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::get_data() in D:\laragon\www\paradise\scratch_test_login.php:9
+Stack trace:
+#0 {main}
+  thrown in D:\laragon\www\paradise\scratch_test_login.php on line 9
+[20-Oct-2026 18:33:29 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\laragon\www\paradise\wp-includes\functions.php on line 6260
+[20-Oct-2026 18:33:43 UTC] Automatic updates starting...
+[20-Oct-2026 18:33:43 UTC] Automatic updates complete.
